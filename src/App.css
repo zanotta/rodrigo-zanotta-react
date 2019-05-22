@@ -1,0 +1,22 @@
+body {
+	background: url('./img/background.jpg') no-repeat center center fixed;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	color: inherit;
+}
+.b {border: 1px solid red;}
+.me {
+	border-radius: 50%;
+	border: 5px solid #FFF;
+}
+h1, h2 {
+	font-weight: normal;
+}
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 1.6rem;
+}
