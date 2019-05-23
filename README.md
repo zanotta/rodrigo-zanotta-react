@@ -1,1 +1,1 @@
-[Link](https://rodrigozanotta.com.br).
+[Link](https://rodrigozanotta.com.br)
