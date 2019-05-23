@@ -7,32 +7,24 @@ function Social() {
 	return (
 		<div className="row mt-5">
 
-			<div className="col-2 offset-1 col-lg-2 text-center">
-				<a href="https://github.com/zanotta" rel="noopener noreferrer" target="_blank">
+			<div className="text-center mx-auto">
+				<a href="https://github.com/zanotta" rel="noopener noreferrer" className="ml-3 mr-4" target="_blank">
 					<i className="fab fa-github fa-3x"></i>
 				</a>
-			</div>
-
-			<div className="col-2 col-lg-2 text-center">
-				<a href="https://github.com/zanotta" rel="noopener noreferrer" target="_blank">
+			
+				<a href="https://github.com/zanotta" rel="noopener noreferrer" className="mr-4" target="_blank">
 					<i className="fab fa-facebook fa-3x"></i>
 				</a>
-			</div>
-
-			<div className="col-2 col-lg-2 text-center">
-				<a href="https://github.com/zanotta" rel="noopener noreferrer" target="_blank">
+			
+				<a href="https://github.com/zanotta" rel="noopener noreferrer" className="mr-4" target="_blank">
 					<i className="fab fa-twitter fa-3x"></i>
 				</a>
-			</div>
-
-			<div className="col-2 col-lg-2 text-center">
-				<a href="https://github.com/zanotta" rel="noopener noreferrer" target="_blank">
+			
+				<a href="https://github.com/zanotta" rel="noopener noreferrer" className="mr-4" target="_blank">
 					<i className="fab fa-instagram fa-3x"></i>
 				</a>
-			</div>
-
-			<div className="col-2 col-lg-2 text-center">
-				<a href="https://github.com/zanotta" rel="noopener noreferrer" target="_blank">
+			
+				<a href="https://github.com/zanotta" rel="noopener noreferrer" className="mr-4" target="_blank">
 					<i className="fab fa-linkedin fa-3x"></i>
 				</a>
 			</div>
