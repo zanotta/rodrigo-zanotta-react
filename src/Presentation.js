@@ -7,7 +7,7 @@ function Presentation() {
 	return (
 		<React.Fragment>
 			<h1 className="text-center mt-3">Rodrigo Zanotta</h1>
-			<h2 className="text-center mt-1">Desenvolvedor Web</h2>
+			<h2 className="text-center mt-1 mb-5">Desenvolvedor Web</h2>
 		</React.Fragment>
 	);
 }
