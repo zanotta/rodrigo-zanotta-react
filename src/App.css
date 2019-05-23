@@ -3,11 +3,6 @@
 	to {background-color: #2980b9;}
 }
 
-@keyframes me {
-	from {box-shadow: 0 0 5px #000;}
-	to {box-shadow: 0 0 30px #000;}
-}
-
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('fonts/BebasNeue-webfont.eot');
@@ -39,10 +34,7 @@ a {
 .me {
 	border-radius: 50%;
 	border: 5px solid #FFF;
-	animation-name: me;
-  	animation-duration: 1s;
-  	animation-iteration-count: infinite;
-  	animation-direction: alternate-reverse;
+	box-shadow: 0 0 5px #000;
 }
 h1, h2 {
 	font-weight: normal;
