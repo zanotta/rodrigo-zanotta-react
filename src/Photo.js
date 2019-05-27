@@ -1,17 +1,21 @@
 import React from 'react';
 import './App.css';
 
-function Photo() {
+class Photo extends React.Component {
 
-	const imgPath = require('./img/me.jpg');
+	render(){
+		
+		const imgPath = require('./img/me.jpg');
 
-	return (
-		<div className="row">
-			<div className="col-6 col-lg-2 offset-lg-5 offset-3 col-md-4 offset-md-4 mt-5">
-				<img src={imgPath} className="img-fluid me" alt="Rodrigo Zanotta" />
+		return (
+			<div className="row">
+				<div className="col-6 col-lg-2 offset-lg-5 offset-3 col-md-4 offset-md-4 mt-5">
+					<img src={imgPath} className="img-fluid me" alt="Rodrigo Zanotta" />
+				</div>
 			</div>
-		</div>
-	);
+		);
+
+	}
 }
 
 export default Photo;
