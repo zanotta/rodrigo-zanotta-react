@@ -1,7 +1,7 @@
-@keyframes background {
+/*@keyframes background {
 	from {background-color: #d5d7d8;}
 	to {background-color: #ecf0f1;}
-}
+}*/
 
 @font-face {
     font-family: 'BebasNeueRegular';
@@ -17,15 +17,20 @@ html, body {
     height: 100%;
 }
 body {
-	animation-name: background;
-  	animation-duration: 5s;
-  	animation-iteration-count: infinite;
-  	animation-direction: alternate-reverse;
+    background-image: linear-gradient(to bottom, #ecf0f1,#FFF);
 	background-size: contain;
 	background-repeat: no-repeat;
 	color: #444;
 	font-family: 'BebasNeueRegular';
 	min-height: 100% !important;
+}
+::selection {
+    background: #34495e;
+    color: #FFF;
+}
+::-moz-selection {
+    background: #34495e;
+    color: #FFF;
 }
 a {
 	color: inherit;
@@ -43,9 +48,6 @@ h1 {
 }
 h2 {
 	font-size: 2rem;
-}
-.fab {
-	
 }
 .fab:hover {
 	color:#000;
