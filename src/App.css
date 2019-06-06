@@ -33,7 +33,7 @@ body {
     background: #34495e;
     color: #FFF;
 }
-a {
+a, a:hover {
 	color: inherit;
 }
 .b {border: 1px solid red;}
