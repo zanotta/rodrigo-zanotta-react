@@ -7,7 +7,7 @@ class Presentation extends React.Component {
 	render(){
 		
 		const { userLanguage } = this.props;
-		const job = userLanguage == 'pt-BR' ? 'Desenvolvedor Web' : 'Web Developer';
+		const job = userLanguage === 'pt-BR' ? 'Desenvolvedor Web' : 'Web Developer';
 
 		return (
 			<React.Fragment>
