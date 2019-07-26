@@ -10,6 +10,12 @@ class Contact extends React.Component {
 
 				<div className="text-center col-12 col-lg-12">
 
+					<a href="https://blog.rodrigozanotta.com.br" rel="noopener noreferrer" target="_blank" title="E-mail">
+						Blog
+					</a>
+
+					<br />
+
 					<a href="mailto:contato@rodrigozanotta.com.br" rel="noopener noreferrer" target="_blank" title="E-mail">
 						contato@rodrigozanotta.com.br
 					</a>
